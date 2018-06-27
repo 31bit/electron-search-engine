@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./assets/img/favicon.ico">
+
+    <title>BlackTie.co</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+
+
+    <link rel="stylesheet" href="./assets/css/ionicons.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="componnets" id="componnets">
+        <div class="sign-in" id="sign-in">
+            <h1>Login</h1>
+            <form method="post">
+                <input type="text" name="username" class="input" id="username" placeholder="Username" required="required" />
+                <input type="password" name="password" class="input" id="password" placeholder="Password" required="required" />
+                <button type="button" class="btn btn-primary btn-block btn-large" id="sign-in">Sign In</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        if (typeof module === 'object') {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/retina-1.1.0.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/basic.js"></script>
+    <script>
+        if (window.module) module = window.module;
+    </script>
+    <script>
+        // You can also require other files to run in this process
+        require('./renderer.js')
+    </script>
+    <script>
+    </script>
+</body>
+
+</html>
